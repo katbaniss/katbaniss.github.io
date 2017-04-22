@@ -1,0 +1,260 @@
+* {
+	margin: 0 auto;
+	font-weight: 100;
+}
+
+body {
+	width: 1000px;
+}
+
+@font-face {
+	font-family:roboto-light;
+	src: url(fonts/Roboto-Light.ttf)
+}
+
+img {margin: 10px auto 20px auto
+}
+
+.wrapper {
+	margin: 0 auto;
+}
+/*Style applied to header section*/	
+#header {
+	width: 100%;
+	height: 150px;
+	background-color: #606060;
+	padding-bottom: 10px;
+}
+#headertitle {
+	float: left;
+	font-family:roboto-light;
+	font-size: 50px;
+	color: #FFFFFF;	
+	padding-left: 10px;
+	padding-top: 70px;
+}
+
+#headericon {
+		width: 100px;
+		height:100px;
+		float: left;
+		margin-top: 50px;
+		margin-left: 10px;
+	}
+#seperation {
+	width: 100%;
+	height: 2px;
+	background-color: #FFFFFF;
+}
+/*Style applied to navigation*/	
+#nav {
+	width: 100%;
+	height: 40px;
+	background-color: #606060;
+}
+	
+	#nav ul {
+		padding-top: 10px;
+		
+	}
+	#nav ul li {
+		display: inline-block;
+		list-style: none;
+		color: #fff;
+		font-size: 16px;
+		font-family: roboto-light;
+        margin: 0px 10px 0px 10px;
+		transition: ease-in all 300ms;
+		-moz-transition: ease-in all 300ms;
+		-webkit-transition: ease-in all 300ms;
+		-o-transition: ease-in all 300ms; 
+	}
+	#nav ul a:hover {
+		color: #D0D0D0;
+		position: relative;
+		right: 2px;
+		transition: ease-in all 300ms;
+		-moz-transition: ease-in all 300ms;
+		-webkit-transition: ease-in all 300ms;
+		-o-transition: ease-in all 300ms; 
+	}	
+	#nav ul a {
+	color: #fff;
+	text-decoration: none;
+	}
+
+#line {
+	width: 100%;
+	height: 2px;
+	position: none;
+	background-color: #00CCFF;
+}
+/*Style applied to introduction in body*/	
+#intro {
+	width: 100%;
+	height: 50px;
+	background-color: #FFFFF;	
+
+/*Style applied to left part of the body*/		
+}
+#contentleft {
+	width: 65%;
+	margin-left: 0px;
+	float: left;
+	margin-right: 0px;
+	margin-bottom: 20px;
+	/* height: 2000px; 	*/
+}
+	#contentleft h1 {
+		font-family: roboto-light;
+		font-size: 25px;
+		font-weight: bold;
+		color: #282828;
+
+	}
+	#contentleft h2 {
+		font-family: roboto-light;
+		font-size: 18px;
+		font-style: italic;
+		color: #282828;
+		padding-top: 30px;
+		
+	}
+	#contentleft h3 {
+		font-family: roboto-light;
+		font-size: 18px;
+		font-style: italic;
+		color: #282828;
+		padding-top: 30px;
+		
+	}
+	#contentleft .websitetext {
+		font-family: roboto-light;
+		font-size: 16px;
+		color: #282828;
+		text-align: justify;
+		text-justify: inter-word;
+		padding-top: 12px;
+	}
+	#contentleft ul {
+		font-family: roboto-light;
+		font-size: 16px;
+		color: #282828;
+		text-align: justify;
+		text-justify: inter-word;
+		padding-bottom: 20px;
+	}
+	#contentleft li {
+		font-family: roboto-light;
+		font-size: 16px;
+		color: #282828;
+		text-align: justify;
+		text-justify: inter-word;
+		padding-top: 5px;
+	}	
+/*Style applied to images on markuplanguages*/
+	.no-tag
+	{
+		list-style: none;
+	}
+/*Style applied to graphic headlines*/		
+	.accessibilityplayer {
+		font-family: roboto-light;
+	}
+	.mobilepenetration {
+		font-family: roboto-light;
+	}
+/*Style applied to table on webvsnative*/	
+	table, th, td {
+   		font-family:roboto-light;
+   		font-size: 16px;
+	}
+
+	table {
+		width: 100%;
+		padding-top: 30px;
+	}
+	th {
+		height: 40px;
+		background-color: #00CCFF;
+		padding-right: 10px;
+		font-size: 14px;
+		font-weight: bold;
+		vertical-align: middle;
+	}
+	td { 
+		background-color: #E8E8E8;
+		text-align: center;
+		font-size: 14px;
+		font-style: italic;
+		padding-right: 20px;
+		vertical-align: top;
+	}
+/*Style applied to left part of the body*/	
+	#contentleft td ul li {
+		font-size: 14px;
+		font-style: normal;
+	}	
+
+
+/*Style applied to right part of the body*/	
+#contentright {
+	float: left;
+	width: 35%;
+	padding-left: 0px;
+
+}
+/*Style applied to pictures*/	
+	.gallerybox {
+		width: 60%;
+		/* height: 190px; */
+		float: right;
+	}
+		.gallerymargin1 {
+			margin-top: 70px;
+		}
+		.gallerymargin2 {
+			margin-right: 5px;
+		}
+		.gallerymargin3 {
+			margin-bottom: 60px;
+		}
+		.gallerymargin4 {
+			margin-top: 20px;
+			margin-bottom: 20px;
+		}
+	.gallery {
+		background-color: black;
+		/*height: 150px;*/
+		width: 100%;
+	}
+	.gallerybox  {
+	font-size: 12px;
+	font-family: roboto-light;
+	color: black;
+	float: right;
+	width: 86%;
+	}
+/*Style applied to footer section*/	
+#footer {
+	clear: both;
+	width: 100%;
+	height: 40px;
+	background-color: black;	
+}
+	#footer p {
+		font-family:roboto-light;
+		font-size: 16px;
+		color: #FFFFFF;
+		padding-top: 12px;
+	}
+	.footerp1 {
+		float:left;
+		margin-left: 15px;
+	}
+	.footerp2 {
+		float: right;
+		margin-right: 15px;
+	}
+
+
